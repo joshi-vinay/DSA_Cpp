@@ -95,4 +95,63 @@ if(isPrime==0){
     }
 
 
+/*  Continue: used to skip an iteration of the current loop. 
+    It skips the remaining block of code for that iteration.
+*/
+
+    for(int i = 0; i<5; i++)
+    {
+        cout<<"HI"<<endl;
+        cout<<"Hey"<<endl;
+        continue;
+        // break;
+
+        cout<<"Reply to karde"<<endl;
+    }
+
+    // ------------Output Questions----------
+
+    for(int i = 0; i<=5; i++){
+        cout<<i<<" ";
+        i++;
+    }
+
+    Output -->  0 2 4
+
+    for(int i = 0; i<=5; i--){
+        cout<<i<<" ";
+        i++;
+    }
+
+    // Output --> 00000......(Infinite times)
+
+    for(int i = 0; i <= 15; i+=2){
+        cout << i << " ";
+        
+        if(i&1){
+            continue;
+        }
+        i++;
+    }
+
+    // Output --> 0 3 5 7 9 11 13 15
+
+    for(int i = 0; i < 5; i++){
+        for(int j = 1; j <= 5; j++){
+            cout << i <<" "<< j<< endl;
+        }
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 1; j <= 5; j++)
+        {
+            if(i+j == 10){
+                break;
+            }
+            cout<<i<<" "<<j<<endl;
+        }
+        
+    }
+
 }
