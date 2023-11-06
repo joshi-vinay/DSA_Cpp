@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 
-// Given two numbers a and b, for every number startng from a through b, print the english representation if the number is less than 10 or print if it's even or odd if the number is greater than or equal 10. Use a loop to increment an integer from a through b.
+// Given two numbers a and b, for every number startng from a through b, print the english representation if the number is less 
+// than 10 or print if it's even or odd if the number is greater than or equal 10. Use a loop to increment an integer from a through b.
 
 int main() {
 
